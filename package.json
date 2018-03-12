@@ -1,0 +1,33 @@
+{
+  "name": "node-koa-api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "test": "./node_modules/mocha/bin/_mocha ./test/**/*.test.js"
+  },
+  "keywords": [],
+  "author": "Michael Herman",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "4.1.1",
+    "chai-http": "^3.0.0",
+    "mocha": "3.5.0",
+    "sinon": "^4.1.5"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^5.0.1",
+    "knex": "^0.13.0",
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-controller-router": "0.0.5",
+    "koa-passport": "^4.0.1",
+    "koa-redis": "^3.1.1",
+    "koa-router": "^7.2.1",
+    "koa-session": "^5.5.1",
+    "mongoose": "^5.0.9",
+    "passport-local": "^1.0.0",
+    "pg": "^7.1.2"
+  }
+}
